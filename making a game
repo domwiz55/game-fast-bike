@@ -1,0 +1,15 @@
+// Function to create a game character with a bike that moves fast
+function createFastBikerCharacter() {
+  // Create a character object
+  const character = {
+    name: 'Fast Biker',
+    speed: 'fast',
+    bike: {
+      type: 'racing',
+      color: 'red'
+    }
+  };
+
+  // Return the character object
+  return character;
+}
